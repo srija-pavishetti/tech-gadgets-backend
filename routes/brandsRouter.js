@@ -1,4 +1,4 @@
-import exppress from "express";
+import express from "express";
 import {
   createBrandCtrl,
   deleteBrandCtrl,
