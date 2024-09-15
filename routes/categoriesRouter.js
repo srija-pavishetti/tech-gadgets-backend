@@ -9,7 +9,7 @@ import {
 } from "../controllers/categoriesCtrl.js";
 import { isLoggedIn } from "../middlewares/isLoggedIn.js";
 
-const categoriesRouter = exppress.Router();
+const categoriesRouter = express.Router();
 
 categoriesRouter.post(
   "/",
